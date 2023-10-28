@@ -19,25 +19,23 @@ do
             break
             ;;
         "cmd")
-            clear
-            echo "Waiting to open Command Prompt"
-            cmd.exe
+            echo "Command Prompt is only supported on Windows operating systems"
             ;;
         "pwsh"|"powershell")
             clear
             echo "Waiting to open Powershell"
-            pwsh
+            powershell
             ;;
         "clear")
             clear
             ;;
         "help")
-            notepad.exe help.txt &
+            vim help.txt &
             ;;
         "shutdown")
-            read -p "? Enter options (s, r, l, st, stc, a): " usr_cmdinputoptions
+            read -p "? Enter options (h, r, l, h+, h+-, c): " usr_cmdinputoptions
             case $usr_cmdinputoptions in
-                "s")
+                "h")
                     shutdown -h now
                     ;;
                 "r")
@@ -46,16 +44,16 @@ do
                 "l")
                     gnome-session-quit --logout --no-prompt
                     ;;
-                "st")
+                "h+")
                     read -p "? Enter the shutdown time after command activation (second):  " shutdown_timecount
                     shutdown -h +$shutdown_timecount
                     ;;
-                "stc")
+                "h+-")
                     read -p "? Enter the shutdown time after command activation (second):  " shutdown_timecount
                     read -p "? Enter the shutdown message after command activation:  " shutdown_message
                     shutdown -h +$shutdown_timecount "$shutdown_message"
                     ;;
-                "a")
+                "c")
                     shutdown -c
                     ;;
                 *)
