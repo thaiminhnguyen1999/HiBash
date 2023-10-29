@@ -18,8 +18,10 @@ do
             echo "Exit $BASH_NAME"
             break
             ;;
-        "cmd")
-            echo "Command Prompt is only supported on Windows operating systems"
+        "zsh")
+            clear
+            echo "Waiting to open Oh-My-Zsh
+            zsh
             ;;
         "pwsh"|"powershell")
             clear
