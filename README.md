@@ -6,7 +6,7 @@ HiBash is an open source project built by Thai Minh Nguyen
 To use HiBash, you need to use the following commands:
 
 **In CMD (Command Prompt):**
-```sh
+```cmd
 git clone --branch hibash-batch https://github.com/thaiminhnguyen1999/HiBash.git
 cd HiBash
 HiBash.bat
