@@ -1,2 +1,2 @@
 # HiBash
-HiBash is a Command-line interpreter built on two versions: Batch (.bat) and Bash Shell (.sh)
+HiBash is an open source project built by Thai Minh Nguyen
