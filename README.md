@@ -1,29 +1,9 @@
 # HiBash
 HiBash is an open source project built by Thai Minh Nguyen
 
-## How to use
+## Open Source Application Development
+**Note: Before starting, choose the type of programming language you want to use to develop the application (Batch and Bash Shell)**
 
-To use HiBash, you need to use the following commands:
-
-**In CMD (Command Prompt):**
-```sh
-git clone --branch hibash-batch https://github.com/thaiminhnguyen1999/HiBash.git
-cd HiBash
-HiBash.bat
-```
-
-**In PWSH (Powershell):**
-```sh
-git clone --branch hibash-batch https://github.com/thaiminhnguyen1999/HiBash.git
-cd HiBash
-./HiBash.bat
-```
-
-## Command
-Commands currently available in HiBash:
-
-```
-exit
-cmd
-
-```
+### HiBash for Windows (Batch)
+- To develop the open source HiBash for Windows (Batch) application, you need to download the HiBash for Windows (Batch) version using the command `git clone --branch hibash-batch https://github.com /thaiminhnguyen1999/HiBash.git` or you can download it [here](https://github.com/thaiminhnguyen1999/HiBash/archive/refs/heads/hibash-batch.zip)
+- Then, open Visual Studio Code and browse to the location where the HiBash folder is saved
