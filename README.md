@@ -25,5 +25,13 @@ Commands currently available in HiBash:
 ```
 exit
 cmd
-
+pwsh | powershell
+clear
+help
+shutdown
 ```
+
+**To view information about commands, type `help` in HiBash or open the help.txt file**
+
+## Open Source Application Development (OSAD)
+**See information about Open Source Application Development (OSAD) at branch [hibash-osad](https://github.com/thaiminhnguyen1999/HiBash/tree/hibash-osad)**
