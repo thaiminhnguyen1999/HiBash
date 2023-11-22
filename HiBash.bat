@@ -12,14 +12,15 @@ FOR /F "tokens=1* delims==" %%i IN (.env) DO (
     IF "%%i"=="BASH_VERSION" (
         SET "BASH_VERSION=%%j"
     )
-    IF "%%i"=="BASH_AUTHOR" (
-        SET "BASH_AUTHOR=%%j"
+    IF "%%i"=="BASH_DESIGNER_EDITOR" (
+        SET "BASH_DESIGNER_EDITOR=%%j"
     )
 )
 
 echo !BASH_NAME! [Version !BASH_VERSION!]
 
-echo (c) !BASH_AUTHOR!. All right reserved. Power by Thai Minh Nguyen 
+echo WELCOME TO HIBASH INTERFACE 2023
+echo Participants: !BASH_DESIGNER_EDITOR!
 
 :loop
 
